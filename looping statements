@@ -447,7 +447,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "# looping statements"
+        "## looping statements"
       ],
       "metadata": {
         "id": "CpvE9902d6I2"
@@ -459,7 +459,7 @@
       "metadata": {
         "id": "UjxeVMX2cGB2"
       },
-      "execution_count": null,
+      "execution_count": 1,
       "outputs": []
     },
     {
@@ -478,16 +478,29 @@
       "source": [
         "for i in range(1, 6):\n",
         "    print(i)\n",
-        "Example 2: Print elements of a list\n",
-        "Copy code\n",
-        "Python\n",
         "fruits = [\"apple\", \"banana\", \"mango\"]"
       ],
       "metadata": {
-        "id": "YtD7-rSFcAOQ"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YtD7-rSFcAOQ",
+        "outputId": "c28689c9-2e9b-407a-8c80-64fe4f5cf0a9"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -542,36 +555,10 @@
         "    print(i)"
       ],
       "metadata": {
-        "id": "nOUBkNXGc0MT",
-        "outputId": "1dc30942-04ed-4486-f3ca-1830084c3b29",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        }
+        "id": "nOUBkNXGc0MT"
       },
-      "execution_count": 1,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "0\n",
-            "1\n",
-            "2\n",
-            "3\n",
-            "4\n",
-            "5\n",
-            "6\n",
-            "7\n",
-            "8\n",
-            "9\n",
-            "1\n",
-            "3\n",
-            "5\n",
-            "7\n",
-            "9\n"
-          ]
-        }
-      ]
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "markdown",
