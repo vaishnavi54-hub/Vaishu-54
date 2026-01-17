@@ -1,0 +1,106 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPEYjs/95EzdIvBu6NWFAEv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/vaishnavi54-hub/Vaishu-54/blob/python-world/operators%20in%20python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# operators in python"
+      ],
+      "metadata": {
+        "id": "SF_TvpUvBVfO"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Taking input values\n",
+        "a = 10\n",
+        "b = 5\n",
+        "\n",
+        "print(\"A =\", a)\n",
+        "print(\"B =\", b)\n",
+        "\n",
+        "print(\"\\n--- Arithmetic Operators ---\")\n",
+        "print(\"Addition:\", a + b)\n",
+        "print(\"Subtraction:\", a - b)\n",
+        "print(\"Multiplication:\", a * b)\n",
+        "print(\"Division:\", a / b)\n",
+        "print(\"Modulus:\", a % b)\n",
+        "print(\"Exponent:\", a ** b)\n",
+        "print(\"Floor Division:\", a // b)\n",
+        "\n",
+        "print(\"\\n--- Relational (Comparison) Operators ---\")\n",
+        "print(\"a == b:\", a == b)\n",
+        "print(\"a != b:\", a != b)\n",
+        "print(\"a > b:\", a > b)\n",
+        "print(\"a < b:\", a < b)\n",
+        "print(\"a >= b:\", a >= b)\n",
+        "print(\"a <= b:\", a <= b)\n",
+        "\n",
+        "print(\"\\n--- Logical Operators ---\")\n",
+        "print(\"a > 5 and b < 10:\", a > 5 and b < 10)\n",
+        "print(\"a > 5 or b > 10:\", a > 5 or b > 10)\n",
+        "print(\"not(a > b):\", not(a > b))\n",
+        "\n",
+        "print(\"\\n--- Assignment Operators ---\")\n",
+        "c = a\n",
+        "print(\"c =\", c)\n",
+        "c += b\n",
+        "print(\"c += b:\", c)\n",
+        "c -= b\n",
+        "print(\"c -= b:\", c)\n",
+        "c *= b\n",
+        "print(\"c *= b:\", c)\n",
+        "\n",
+        "print(\"\\n--- Bitwise Operators ---\")\n",
+        "print(\"a & b:\", a & b)\n",
+        "print(\"a | b:\", a | b)\n",
+        "print(\"a ^ b:\", a ^ b)\n",
+        "print(\"~a:\", ~a)\n",
+        "print(\"a << 1:\", a << 1)\n",
+        "print(\"a >> 1:\", a >> 1)\n",
+        "\n",
+        "print(\"\\n--- Membership Operators ---\")\n",
+        "list1 = [10, 20, 30, 40]\n",
+        "print(\"10 in list1:\", 10 in list1)\n",
+        "print(\"50 not in list1:\", 50 not in list1)\n",
+        "\n",
+        "print(\"\\n--- Identity Operators ---\")\n",
+        "x = 10\n",
+        "y = 10\n",
+        "print(\"x is y:\", x is y)\n",
+        "print(\"x is not y:\", x is not y)"
+      ],
+      "metadata": {
+        "id": "STl6bqntBalN"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
